@@ -1,0 +1,9 @@
+SCOOP: USC’s Student-Produced News Aggregator 
+
+MISSION 
+
+Showcase content from USC student media publications in order to increase exposure, funnel target audiences to content, and unify the publications under the USC identity in a web- app aggregator.   PURPOSE To provide a centralized space to find and consume all student-produced news created at USC.   GOALS 1. Create a centralized app interface to syndicate major USC news publications. 2. Brand and promote the space to the USC student body, alumni community and beyond.  3. Grow readership and traffic to all student produced, USC news publications. 4. Create a license-ready program for implementation at other universities.   
+
+DETAILED DESCRIPTION 
+
+This digest will take form as a specially-branded, touch friendly, browser-based web app.  It will take the seven major publications on campus, draw in their latest content and organize it into a singular interface. The seven publications would be (subject to change): Annenberg TV News (ATVN), Neon Tommy (NT), The Daily Trojan (DT), Annenberg Radio News (ARN), Intersections South LA, Impact, and KXSC.  The app will run completely off an algorithmically- managed back end system, automating the organization of the stories and eliminating the need for a hands-on editor. This algorithm will surface content based on the ratio of pageviews the story is garnering over the total pageviews for that publication. This will level the playing field for smaller publications, putting their most popular content side-by-side with the highest trafficked content from USC’s major publications. Currently, no other journalism school in the country has a platform for aggregating all their publications into a single space. The opportunities to license the system to other schools are abound. 

@@ -1,0 +1,67 @@
+<html>
+<head> 
+<script type="text/javascript">
+	function sendRequest()
+	{
+		alert("hello");
+		var servletURL="http://localhost:8080/examples/servlets/servlet/HelloWorldExample";
+		/*if(window.XMLHttpRequest) {
+			try {
+				req = new XMLHttpRequest();
+				} catch(e) {
+				req = false;
+						}
+		if(req) {
+		req.onreadystatechange = init;
+		//req.open("GET",servletURL+"?inputValue="+inputString, true);
+		req.open("GET",servletURL, true);
+		req.send(null);
+				}					
+		}*/
+	}
+	
+	/*function init(){
+		if(req.readyState == 4 && req.status == 200)
+		{
+			var XMLStr=req.responseXML;
+			
+			var x=XMLStr.getElementsByTagName("File").length;
+			var latt=XMLStr.getElementsByTagName("Lat");
+			var Longi=XMLStr.getElementsByTagName("Long");
+			var id=XMLStr.getElementsByTagName("id");
+			var map = new L.Map("map");
+			var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/909aee2039d14248ab75f548164ca95c/997/256/{z}/{x}/{y}.png',
+				cloudmadeAttrib = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+				cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttrib});
+			map.addLayer(cloudmade);
+			map.setView(new L.LatLng(40, -95), 5);  
+			for(var i=0; i<x; i++) {
+				var circleLocation = new L.LatLng(latt[i].childNodes[0].nodeValue, Longi[i].childNodes[0].nodeValue),
+				circleOptions = {
+					color: 'red',
+					fillColor: '#f03',
+					fillOpacity: 1.0
+				};
+				var circle = new L.Circle(circleLocation, 800, circleOptions);
+				map.addLayer(circle);
+				var fileLoc="file://E:/USC/Spring2012/CSCI%20572/HW5/Code/vault/";
+				circle.bindPopup("<a href="+fileLoc+id[i].childNodes[0].nodeValue+" target=_blank>"+id[i].childNodes[0].nodeValue+"</a>");
+			}
+		}
+	}		
+	*/		
+</script>
+<style type="text/css">
+html
+	{
+	background:url("map.jpg") no-repeat center center fixed;
+	}
+</style>
+</head>
+
+<body onload="sendRequest()"> 
+<center>
+<font style="font-family:calibri;color:blue;weight:bold"><h1>Annenberg School of Communication </br>News App SNAPP</h1></font>
+</center>
+</body>
+</html>
